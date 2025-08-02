@@ -144,13 +144,29 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 20px;
+  padding: 1em;
   background-color: #004d00;
-  color: #ffffff;
-  font-size: 2em;
-  margin-top: 30px;
+  color: #555;
+  font-size: 1em;
+  margin-top: 3em;
+}
+.terkait {
+  margin-top: 2em;
+  font-size: 1.1em;
+  line-height: 1.6;
 }
 
+form {
+  margin-top: 2em;
+  font-size: 1em;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+  
 #berita-terkait {
   background-color: #e9fbe9;
   padding: 25px;
