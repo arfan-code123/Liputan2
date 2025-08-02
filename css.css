@@ -139,18 +139,6 @@ section img {
   background-color: #228B22;
 }
 
-/* Footer */
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 1em;
-  background-color: #004d00;
-  color: #555;
-  font-size: 1em;
-  margin-top: 3em;
-}
 .terkait {
   margin-top: 2em;
   font-size: 1.1em;
@@ -257,4 +245,15 @@ form input, form textarea {
 
 #form-komentar button:hover {
   background-color: #228B22;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1em 0;
+  background-color: #004d00;
+  color: white;
+  font-size: 1em;
+  margin-top: 2em;
 }
