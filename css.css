@@ -167,7 +167,14 @@ form input, form textarea {
   padding: 0.5em;
   margin-bottom: 1em;
 }
-  
+#form-komentar input,
+#form-komentar textarea {
+  width: 100%;
+  max-width: 100%;
+  font-size: 1em;
+  padding: 12px;
+  box-sizing: border-box;
+}
 #berita-terkait {
   background-color: #e9fbe9;
   padding: 25px;
