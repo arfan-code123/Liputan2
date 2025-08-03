@@ -245,10 +245,11 @@ footer {
 }
 .logo-container {
   text-align: center;
-  margin: 30px 0;
+  margin-top: 20px;
+  margin-bottom: 10px
 }
 
 .logo-container img {
-  height: 80px; /* Bisa ubah jadi 180px atau 200px kalau mau lebih besar */
-  max-width: 100%;
+  height: 30px; /* Bisa ubah jadi 180px atau 200px kalau mau lebih besar */
+  max-width: auto;
   }
