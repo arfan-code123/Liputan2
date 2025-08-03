@@ -246,6 +246,6 @@ footer {
 .logo-container img {
   display: block;
   margin: 0 auto;
-  height: 100px; /* bisa kamu ubah jadi 120px, 150px, dll */
+  height: 300px; /* bisa kamu ubah jadi 120px, 150px, dll */
   width: auto;
 }
