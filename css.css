@@ -187,6 +187,15 @@ form input, form textarea {
   color: #006400;
   margin-bottom: 20px;
 }
+.terkait-item h3 {
+  font-size: 1.4em;
+  margin-bottom: 5px;
+}
+
+.terkait-item p {
+  font-size: 1.4em;
+  color: #333;
+}
 
 .terkait-container {
   display: flex;
@@ -230,7 +239,7 @@ form input, form textarea {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 6px;
-  font-size: 0.9em;
+  font-size: 1.8em;
 }
 
 #form-komentar button {
@@ -240,7 +249,7 @@ form input, form textarea {
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  font-size: 0.9em;
+  font-size: 1.8em;
 }
 
 #form-komentar button:hover {
