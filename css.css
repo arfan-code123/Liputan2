@@ -243,13 +243,9 @@ footer {
   font-size: 2em;
   margin-top: 2em;
 }
-.logo-container {
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 10px
-}
-
 .logo-container img {
-  height: 30px; /* Bisa ubah jadi 180px atau 200px kalau mau lebih besar */
-  max-width: auto;
-  }
+  display: block;
+  margin: 0 auto;
+  height: 100px; /* bisa kamu ubah jadi 120px, 150px, dll */
+  width: auto;
+}
