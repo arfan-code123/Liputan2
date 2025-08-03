@@ -18,12 +18,11 @@ body {
 }
 
 header {
-  background: linear-gradient(to right, #006400, #228B22);
-  color: white;
-  padding: 30px 20px;
-  text-align: center;
-  border-radius: 0 0 25px 25px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 0;
 }
 
 header h1 {
