@@ -158,10 +158,10 @@ form input, form textarea {
 #form-komentar input,
 #form-komentar textarea {
   width: 100%;
-  max-width: 100%;
-  font-size: 1em;
   padding: 12px;
-  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1.1em; /* 🔺 Lebih nyaman dibaca */
 }
 #form-komentar label {
   font-size: 1.1em;
