@@ -4,20 +4,19 @@
   box-sizing: border-box;
   font-family: 'Segoe UI', sans-serif;
 }
+
 p {
   margin: 0 0 16px 0;
   line-height: 1.8;
   text-align: justify;
 }
-/* Warna dasar dan background */
+
 body {
   background-color: #f2f9f1;
   color: #333;
   line-height: 1.6;
-  
 }
 
-/* Header Utama */
 header {
   background: linear-gradient(to right, #006400, #228B22);
   color: white;
@@ -27,13 +26,11 @@ header {
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
-/* Judul Website */
 header h1 {
   font-size: 2em;
   margin-bottom: 10px;
 }
 
-/* NAVIGASI TETAP HORIZONTAL */
 .navigasi a {
   display: inline-block;
   padding: 0.7em 1.5em;
@@ -45,7 +42,7 @@ header h1 {
   background-color: #3a5f7d;
   border-radius: 8px;
   transition: background-color 0.3s;
-  flex-shrink: 0; /* Jangan biarkan mengecil */
+  flex-shrink: 0;
 }
 
 .navigasi a:hover {
@@ -56,6 +53,7 @@ header h1 {
   background-color: #ffc107;
   color: #000;
 }
+
 @media (max-width: 768px) {
   .navigasi {
     flex-direction: column;
@@ -63,12 +61,11 @@ header h1 {
     gap: 1em;
   }
 }
-/* Section Utama */
+
 section {
   padding: 25px 15px;
 }
 
-/* Judul Section */
 section h2 {
   color: #004d00;
   background-color: #e6ffe6;
@@ -79,10 +76,11 @@ section h2 {
   margin-bottom: 25px;
 }
 
-/* Kartu Berita */
-.kartu  {
+.kartu {
   width: 90%;
   margin: auto;
+}
+
 .kartu-berita {
   background-color: #ffffff;
   border-radius: 16px;
@@ -90,25 +88,19 @@ section h2 {
   margin-bottom: 30px;
   overflow: hidden;
   transition: transform 0.2s ease;
- }
 }
+
 .kartu-berita:hover {
   transform: scale(1.01);
 }
 
-section img {
+section img,
+.kartu-berita img {
   max-width: 100%;
   height: auto;
   display: block;
   margin: 0 auto 20px;
-}
-
-.kartu-berita img{
-  max-width:100%;
-  height: auto;
-  display: block;
-  border-radius:10px;
-  margin: 0 auto 20px;
+  border-radius: 10px;
 }
 
 .kartu-berita h3 {
@@ -123,7 +115,6 @@ section img {
   color: #444;
 }
 
-/* Link Baca Selengkapnya */
 .kartu-berita a {
   display: block;
   background-color: #006400;
@@ -150,19 +141,22 @@ form {
   font-size: 1em;
 }
 
-form input, form textarea {
+form input,
+form textarea {
   width: 100%;
   padding: 0.5em;
   margin-bottom: 1em;
 }
+
 #form-komentar input,
 #form-komentar textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 6px;
-  font-size: 2em; /* 🔺 Lebih nyaman dibaca */
+  font-size: 1.8em;
 }
+
 #form-komentar label {
   font-size: 1.1em;
   font-weight: bold;
@@ -171,11 +165,20 @@ form input, form textarea {
 }
 
 #form-komentar button {
-  font-size: 1.8em;
-  padding: 12px 20px;
-  margin-top: 10px;
+  background-color: #006400;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
   cursor: pointer;
+  font-size: 1.8em;
+  margin-top: 10px;
 }
+
+#form-komentar button:hover {
+  background-color: #228B22;
+}
+
 #berita-terkait {
   background-color: #e9fbe9;
   padding: 25px;
@@ -187,6 +190,7 @@ form input, form textarea {
   color: #006400;
   margin-bottom: 20px;
 }
+
 .terkait-item h3 {
   font-size: 1.4em;
   margin-bottom: 5px;
@@ -233,28 +237,6 @@ form input, form textarea {
   margin-bottom: 15px;
 }
 
-#form-komentar input,
-#form-komentar textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  font-size: 1.8em;
-}
-
-#form-komentar button {
-  background-color: #006400;
-  color: white;
-  padding: 10px 16px;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 1.8em;
-}
-
-#form-komentar button:hover {
-  background-color: #228B22;
-}
 footer {
   display: flex;
   justify-content: center;
